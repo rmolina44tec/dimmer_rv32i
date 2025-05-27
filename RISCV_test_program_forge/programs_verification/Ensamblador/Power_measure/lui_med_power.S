@@ -1,0 +1,119 @@
+.section .text
+.globl _start
+_start:
+#----------------------------------------------------------------------------------
+#-----------------------Start------------------------------------------------------
+#----------------------------------------------------------------------------------
+#L1: Se escribe el registro timer_count (para no activar la interrupcion)
+#L2: Se escribe el registro mepc que indica la ubicacion en memoria del interrupt handler
+#L3: Se guarda la ubicacion del interrupt handler y se guarda un respaldo en t5
+#L4: Almacena el final del programa
+        csrrwi x0,6,0x1F
+        csrrwi x0,5,0x18
+        li sp,0x00001ff8
+        add t5,sp,x0
+        j Main
+Main:
+        lui x28,463684
+        lui x23,448663
+        lui x2,390712
+        lui x21,205915
+        lui x28,290993
+        lui x28,272571
+        lui x11,427290
+        lui x2,345784
+        lui x26,475476
+        lui x24,231350
+        lui x18,51245
+        lui x5,69607
+        lui x24,487204
+        lui x16,321776
+        lui x20,474379
+        lui x0,48560
+        lui x31,45669
+        lui x13,104394
+        lui x13,163843
+        lui x26,223608
+        lui x14,100913
+        lui x28,235093
+        lui x7,311018
+        lui x8,12919
+        lui x25,44134
+        lui x22,437221
+        lui x2,345166
+        lui x27,291919
+        lui x30,314997
+        lui x30,88912
+        lui x20,104556
+        lui x24,269103
+        lui x29,325481
+        lui x18,32068
+        lui x25,238203
+        lui x10,15652
+        lui x25,228099
+        lui x9,74011
+        lui x7,85255
+        lui x19,131081
+        lui x27,184027
+        lui x12,115406
+        lui x10,140276
+        lui x13,273903
+        lui x19,34257
+        lui x16,282831
+        lui x28,98337
+        lui x2,62745
+        lui x31,388078
+        lui x25,387850
+        lui x29,402322
+        lui x28,203159
+        lui x1,43322
+        lui x17,456594
+        lui x23,439829
+        lui x20,481422
+        lui x16,180135
+        lui x21,217470
+        lui x8,514703
+        lui x12,360720
+        lui x16,66782
+        lui x5,368856
+        lui x26,52562
+        lui x19,305924
+        lui x18,54939
+        lui x27,12557
+        lui x5,93369
+        lui x1,520639
+        lui x7,213721
+        lui x2,173173
+        lui x15,12621
+        lui x23,18076
+        lui x1,388691
+        lui x20,244694
+        lui x15,310336
+        lui x28,365389
+        lui x10,226455
+        lui x7,57611
+        lui x22,4798
+        lui x9,262873
+        lui x21,31158
+        lui x10,90035
+        lui x24,76659
+        lui x29,444993
+        lui x12,433899
+        lui x30,447817
+        lui x19,296883
+        lui x4,116258
+        lui x17,166953
+        lui x23,449018
+        lui x13,142776
+        lui x13,137541
+        lui x25,322309
+        lui x6,250286
+        lui x15,403347
+        lui x14,324142
+        lui x11,283045
+        lui x18,416378
+        lui x12,177851
+        lui x26,311299
+        lui x19,390201
+        j Main
+

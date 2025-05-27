@@ -1,0 +1,31 @@
+
+                                   VC Static 
+
+              Version R-2020.12-SP2-5 for linux64 - Jan 06, 2022 
+
+                    Copyright (c) 2010 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+restore_session -level default
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+exit
+=======================================================
+Total Time(S)  :9.10
+CPU Time(S)    :1.52
+Peak Memory(MB):1252
+=======================================================

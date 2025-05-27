@@ -1,0 +1,37 @@
+ 
+                              IC Compiler II (TM)
+
+             Version R-2020.09-SP6 for linux64 - May 17, 2021 -SLE
+
+                    Copyright (c) 1988 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Warning: Cannot use command line editor for terminal type 'xterm-256color'. (CLE-100)
+Load ICV ICCII menu file: /mnt/vol_NFS_Pivot/rmolina_installation_files/tools/synopsys/icvalidator/R-2020.09-SP3-8/etc/tcl-u/Icc2Menu.tcl
+ + VUE INFO: Please click View->IC Validator VUE in LayoutWindow menu
+            to launch VUE.
+
+ + VUE INFO: Found a usable port: 2446
+
+icc2_shell> open_block /mnt/vol_NFS_rh003/profesores/rmolina/Digital_Designs/Phy_Impl/SPI_RFID/back_end/spi_io_module_lib:spi_io_module/post_lvs.design
+Information: User units loaded from library 'D_CELLS_5V_LP5MOS_MOS5_typ_5_00V_25C' (LNK-040)
+Opening block 'spi_io_module_lib:spi_io_module/post_lvs.design' in edit mode
+icc2_shell> link_block
+Using libraries: spi_io_module_lib D_CELLS_5V_LP5MOS_MOS5_typ_5_00V_25C D_CELLS_5V_LP5MOS_MOS5_fast_5_50V_0C D_CELLS_5V_LP5MOS_MOS5_slow_4_50V_85C xt018_xx43_MET4_METMID_METTHK_IO_CELLS_5V
+Visiting block spi_io_module_lib:spi_io_module/post_lvs.design
+Design 'spi_io_module' was successfully linked.
+1
+icc2_shell> 

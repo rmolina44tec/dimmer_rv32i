@@ -1,0 +1,3 @@
+Command Line: /mnt/vol_NFS_Pivot/tools/synopsys/verdi/R-2020.12-SP2/platform/LINUXAMD64/bin/vfast -silent -del . -o /mnt/vol_NFS_rh003/profesores/rmolina/riscv_test_fpga_ver/sim_files/core_sim_files/pre_synth_add_test.vcd.fsdb -ft verilog /mnt/vol_NFS_rh003/profesores/rmolina/riscv_test_fpga_ver/sim_files/core_sim_files/pre_synth_add_test.vcd
+uname(Linux redhat003 4.18.0-305.12.1.el8_4.x86_64 #1 SMP Mon Jul 26 08:06:24 EDT 2021 x86_64)
+au time 3.219192 2.305863 0.054618 delta 21217280 21217280 total 113754112 113754112

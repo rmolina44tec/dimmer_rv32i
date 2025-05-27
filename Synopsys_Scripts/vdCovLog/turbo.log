@@ -1,0 +1,3 @@
+Command Line: /mnt/vol_NFS_Pivot/rmolina_installation_files/tools/synopsys/verdi/R-2020.12-SP2/platform/LINUXAMD64/bin/vdCov -full64
+uname(Linux redhat003 4.18.0-372.19.1.el8_6.x86_64 #1 SMP Mon Jul 18 11:14:02 EDT 2022 x86_64)
+au time 213.099345 5.471669 2.119535 delta 0 0 total 0 0

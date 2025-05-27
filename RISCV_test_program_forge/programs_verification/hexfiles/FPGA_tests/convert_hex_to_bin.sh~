@@ -1,0 +1,6 @@
+export Var=$(ls *.o.txt)
+for a in $Var
+do
+	xxd -r -p $a > $a.bin   
+done
+mv *.bin binfiles/

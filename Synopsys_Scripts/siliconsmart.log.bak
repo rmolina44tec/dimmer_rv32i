@@ -1,0 +1,15 @@
+----------------------------------------------------------------------
+SiliconSmart version R-2020.12-SP1-4
+Build date: Aug 20, 2021 10:03:49
+Path: /mnt/vol_NFS_rh003/profesores/rmolina/tools/synopsys/siliconsmart/R-2020.12-SP1-4/linux64/bin/siliconsmart
+Host: redhat003, User: rmolina003, PID: 186755 (PPID: 24317)
+CPU: 16 x 1995 MHz, Intel(R) Xeon(R) CPU E5-2660 v4 @ 2.00GHz (2 socket, 8 core)
+Memory: 24 GB RAM (0.6 GB free), 8 GB Swap (8.1 GB free)
+System load average: 0.81, 0.40, 0.28 (2278 processes)
+Directory: /mnt/vol_NFS_rh003/profesores/rmolina/Synopsys_Scripts
+Malibu mode 0 activated
+Mon Feb 21 21:41:00 2022: Establishing connection to license server
+Mon Feb 21 21:41:00 2022: Testing server connection using feature SIS_CHAR
+Mon Feb 21 21:41:00 2022: License server connection established
+Mon Feb 21 21:41:01 2022: Checked out license FEATURE SIS_CHAR v2021.09 (2) on PORT 27000@172.21.9.211
+Command-line: /mnt/vol_NFS_rh003/profesores/rmolina/tools/synopsys/siliconsmart/R-2020.12-SP1-4/linux64/bin/siliconsmart

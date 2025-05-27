@@ -1,0 +1,57 @@
+[15:33:53.44] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c                Version R-2020.12-SP1 for linux64 - Apr 09, 2021 
+              /c 
+              /c                     Copyright (c) 2004 - 2021 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 6413788 compiled on Fri Apr  9 14:18:55 2021 for RHEL64 6.6
+              /c Invocation: /mnt/vol_NFS_rh003/synopsys_tools/synopsys/customcompiler/R-2020.12-SP1/linux64/platform/bin/cdesigner
+              /c Execution time: Mon Dec  6 15:33:50 2021
+              /c Host: redhat003
+              /c Working directory: /mnt/vol_NFS_rh003/profesores/rmolina/Synopsys_Scripts
+              /c 
+[15:33:57.15] /r giShowFrameTabs true
+[15:33:57.15] /r giWindowId 1
+[15:33:57.15] /r giWindowGeometry 1040x800
+[15:33:57.55] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+159+55
+[15:34:02.91] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/saConsole} -in [gi::getWindows 1]
+[15:34:02.91] /# 
+[15:34:03.21] /i sa::openSimulationConsole
+[15:34:07.27] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[15:34:07.35] /r giWindowId 2
+[15:34:07.35] /r giWindowGeometry 600x500
+[15:34:07.60] /o oa:0x383f75a0
+[15:34:07.63] /m Information: Launching Background sae_shell Server Process "cd /mnt/vol_NFS_rh003/profesores/rmolina/Synopsys_Scripts && sae_shell -log sae_shell_session0_job1 -libDefFile /mnt/vol_NFS_rh003/profesores/rmolina/Synopsys_Scripts/lib.defs"
+[15:34:19.24] /m Information: Received ready-for-commands signal from background job 'sae_shell_session0_job1' after 12 seconds.
+[15:34:32.97] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[15:34:33.09] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[15:34:43.44] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/saConsole} -in [gi::getWindows 1]
+[15:34:43.44] /# 
+[15:34:43.74] /i sa::openSimulationConsole
+[15:34:43.76] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[15:34:43.80] /r giWindowId 3
+[15:34:43.81] /r giWindowGeometry 600x500
+[15:34:43.99] /o oa:0x38850130
+[15:34:44.02] /m Information: Launching Background sae_shell Server Process "cd /mnt/vol_NFS_rh003/profesores/rmolina/Synopsys_Scripts && sae_shell -log sae_shell_session1_job1 -libDefFile /mnt/vol_NFS_rh003/profesores/rmolina/Synopsys_Scripts/lib.defs"
+[15:34:50.84] /m Information: Received ready-for-commands signal from background job 'sae_shell_session1_job1' after 6 seconds.
+[15:34:56.93] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[15:34:56.93] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 3]]
+[15:35:00.42] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[15:35:00.42] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 3]]
+[15:35:00.98] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[15:35:00.98] /r giMenuAccess db::getNext [gi::getMenus saVariablesMenu -from [gi::getWindows 3]]
+[15:35:04.27] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[15:35:04.30] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[15:35:49.88] /i exit
+[15:35:49.93] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[15:35:50.04] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x708+159+55
+[15:35:50.24] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]] -value 414x207+472+312
+[15:35:54.95] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[15:35:56.66] /o Shutdown time: Mon Dec  6 15:35:56 2021
+[15:35:56.66] /o Elapsed session real time: 2.05 minutes
+[15:35:56.66] /o Session terminated. Log is at /mnt/vol_NFS_rh003/profesores/rmolina/Synopsys_Scripts/synopsys_custom/logs/ccompiler.rmolina003.2021_12_6_153350_815624.log

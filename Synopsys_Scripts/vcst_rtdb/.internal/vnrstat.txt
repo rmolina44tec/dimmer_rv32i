@@ -1,0 +1,6 @@
+M is representing peak till the message
+Malloc-M represents malloc memory at the message
+STATS:: before LicenseMgr Init : M=930.98mb, Malloc-M=12mb, T=0s W=(2022-09-14 10:09:12)
+STATS:: after  LicenseMgr Init : M=937.832mb, Malloc-M=13mb, T=1s W=(2022-09-14 10:09:13)
+M is representing peak till the message
+Malloc-M represents malloc memory at the message

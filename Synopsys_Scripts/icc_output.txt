@@ -1,0 +1,1 @@
+Warning: Cannot use command line editor for terminal type 'xterm-256color'.  (UI-74)

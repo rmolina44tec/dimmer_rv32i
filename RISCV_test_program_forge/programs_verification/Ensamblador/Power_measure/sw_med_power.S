@@ -1,0 +1,130 @@
+.section .text
+.globl _start
+_start:
+#----------------------------------------------------------------------------------
+#-----------------------Start------------------------------------------------------
+#----------------------------------------------------------------------------------
+#L1: Se escribe el registro timer_count (para no activar la interrupcion)
+#L2: Se escribe el registro mepc que indica la ubicacion en memoria del interrupt handler
+#L3: Se guarda la ubicacion del interrupt handler y se guarda un respaldo en t5
+#L4: Almacena el final del programa
+        csrrwi x0,6,0x1F
+        csrrwi x0,5,0x18
+        li sp,0x00001ff8
+        add t5,sp,x0
+        j Main
+Main:
+        li x1,5500
+        addi x2,x0,-854
+        addi x3,x0,-624
+        addi x4,x0,838
+        addi x5,x0,-586
+        addi x6,x0,-290
+        addi x7,x0,-1357
+        addi x8,x0,-483
+        addi x9,x0,-701
+        addi x10,x0,1936
+        addi x11,x0,-661
+        addi x12,x0,587
+        addi x13,x0,-932
+        addi x14,x0,-118
+        addi x15,x0,-530
+        addi x16,x0,2036
+        addi x17,x0,-1794
+        addi x18,x0,1841
+        addi x19,x0,1598
+        addi x20,x0,-508
+        addi x21,x0,566
+        addi x22,x0,386
+        addi x23,x0,404
+        addi x24,x0,-663
+        addi x25,x0,-621
+        addi x26,x0,-1555
+        addi x27,x0,-1146
+        addi x28,x0,1001
+        addi x29,x0,-1774
+        addi x30,x0,-1503
+        addi x31,x0,1603
+Inicio:
+        sw x3,48(x1)
+        sw x3,20(x1)
+        sw x24,112(x1)
+        sw x17,68(x1)
+        sw x19,24(x1)
+        sw x3,48(x1)
+        sw x16,104(x1)
+        sw x14,40(x1)
+        sw x27,96(x1)
+        sw x24,16(x1)
+        sw x5,20(x1)
+        sw x24,52(x1)
+        sw x15,88(x1)
+        sw x27,48(x1)
+        sw x5,56(x1)
+        sw x19,48(x1)
+        sw x23,0(x1)
+        sw x24,76(x1)
+        sw x26,116(x1)
+        sw x26,76(x1)
+        sw x14,108(x1)
+        sw x15,48(x1)
+        sw x9,80(x1)
+        sw x6,112(x1)
+        sw x13,16(x1)
+        sw x12,8(x1)
+        sw x17,88(x1)
+        sw x29,96(x1)
+        sw x18,68(x1)
+        sw x19,108(x1)
+        sw x16,12(x1)
+        sw x7,44(x1)
+        sw x6,32(x1)
+        sw x28,72(x1)
+        sw x23,112(x1)
+        sw x28,100(x1)
+        sw x5,40(x1)
+        sw x13,88(x1)
+        sw x21,60(x1)
+        sw x8,44(x1)
+        sw x7,56(x1)
+        sw x29,16(x1)
+        sw x7,92(x1)
+        sw x5,12(x1)
+        sw x15,32(x1)
+        sw x7,116(x1)
+        sw x8,44(x1)
+        sw x9,32(x1)
+        sw x26,24(x1)
+        sw x10,76(x1)
+        sw x13,8(x1)
+        sw x24,28(x1)
+        sw x12,84(x1)
+        sw x15,92(x1)
+        sw x25,12(x1)
+        sw x21,4(x1)
+        sw x22,64(x1)
+        sw x9,48(x1)
+        sw x30,112(x1)
+        sw x6,112(x1)
+        sw x11,20(x1)
+        sw x20,12(x1)
+        sw x3,80(x1)
+        sw x10,76(x1)
+        sw x10,36(x1)
+        sw x11,92(x1)
+        sw x23,40(x1)
+        sw x8,16(x1)
+        sw x12,92(x1)
+        sw x19,100(x1)
+        sw x9,60(x1)
+        sw x4,84(x1)
+        sw x29,72(x1)
+        sw x4,100(x1)
+        sw x22,84(x1)
+        sw x28,112(x1)
+        sw x9,36(x1)
+        sw x5,48(x1)
+        sw x9,32(x1)
+        sw x24,96(x1)
+        sw x20,104(x1)
+        j Inicio 

@@ -1,0 +1,5 @@
+riscv32-unknown-elf-gcc -nostdlib -nostartfiles -o ../../Objetos/instrucciones/or.o or.S
+riscv32-unknown-elf-gcc -nostdlib -nostartfiles -o ../../Objetos/interrupciones//Interrupt_spi_sw_lw.o Interrupt_spi_sw_lw.S
+riscv32-unknown-elf-gcc -nostdlib -nostartfiles -o ../../Objetos/CPI_power/ori.o ori.S
+riscv32-unknown-elf-gcc -nostdlib -nostartfiles -o ../../Objetos/FPGA_tests/OLED_test.o OLED_test.S
+riscv32-unknown-elf-gcc -nostdlib -nostartfiles -o ../../Objetos/Power_measure/lw_med_power.o lw_med_power.S

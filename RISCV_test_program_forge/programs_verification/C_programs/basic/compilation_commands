@@ -1,0 +1,6 @@
+
+
+riscv32-unknown-elf-gcc -g simple_add.c -o simple_add
+
+riscv32-unknown-elf-objdump -d simple_add
+

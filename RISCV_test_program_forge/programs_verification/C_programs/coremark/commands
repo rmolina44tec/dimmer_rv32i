@@ -1,0 +1,8 @@
+#To compile the C code
+make PORT_DIR=simple
+
+#To dissasemble the code:
+riscv32-unknown-elf-objdump -D coremark.rvexe
+
+#To create the hexfile:
+riscv32-unknown-elf-elf2hex --bit-width 32 --input coremark.rvexe >> coremark_program.txt

@@ -1,0 +1,20 @@
+[15:34:14.34] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[15:34:18.98] /o sae_shell Version Custom Compiler R-2020.12-SP1
+              /c Build  (OPT) compiled on Fri Apr  9 14:18:55 2021 for RHEL64 6.6
+              /c Execution time: Mon Dec  6 15:34:11 2021
+              /c Host: redhat003
+              /c 
+              /c Copyright © 2004-2021 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[15:34:19.00] /o /mnt/vol_NFS_rh003/synopsys_tools/synopsys/customcompiler/R-2020.12-SP1/auxx/samples/basic
+[15:34:19.00] /o /mnt/vol_NFS_rh003/synopsys_tools/synopsys/customcompiler/R-2020.12-SP1/auxx/samples/snpsDeviceLib
+[15:34:19.00] /o /mnt/vol_NFS_rh003/synopsys_tools/synopsys/customcompiler/R-2020.12-SP1/auxx/samples/analogLib
+[15:34:19.00] /o /mnt/vol_NFS_rh003/synopsys_tools/synopsys/customcompiler/R-2020.12-SP1/auxx/samples/sheets
+[15:34:19.00] /o /mnt/vol_NFS_rh003/synopsys_tools/synopsys/customcompiler/R-2020.12-SP1/auxx/samples/parasitics
+[15:34:19.07] /i ::sa::_backgroundSaeShell::signalProcessReady 1638826447
+[15:34:19.07] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 12
+[15:34:33.09] /i ::sa::_backgroundSaeShell::exit
+[15:34:33.09] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[15:34:33.55] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)

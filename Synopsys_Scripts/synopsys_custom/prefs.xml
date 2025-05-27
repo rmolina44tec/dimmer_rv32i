@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version R-2020.12-SP1-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtNetlistingPrefixes" value="background_netlisting sae_shell_netlist"/>
+	<pref name="xtSAEShellJobLimit" value="2"/>
+	<pref name="xtSAEShellPrefixes" value="sae_shell_results_viewer"/>
+	<pref name="xtSimulationPrefixes" value="HSIM HSPICE Nanosim Spectre VHDL Verilog XA FineSimPro FineSimProSpectre FineSimProVCS FineSimProVCSSpectre HSIMHSPICE PrimeSim PrimeSimVCS PrimeSimXA XAEldo XAHSPICE XASpectre XAVCSHSPICE"/>
+</preferences>
+

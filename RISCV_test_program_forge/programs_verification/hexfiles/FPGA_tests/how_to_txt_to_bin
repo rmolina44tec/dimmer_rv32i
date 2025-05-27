@@ -1,0 +1,3 @@
+Just use this command:
+
+xxd -r -p "hex_file.txt" > "bin_file.bin"

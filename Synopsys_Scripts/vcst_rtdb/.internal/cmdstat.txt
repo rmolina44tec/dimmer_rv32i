@@ -1,0 +1,68 @@
+
+
+### create_proc_command	Num_calls 120	Total_time 00:00:00.017073	Total malloc-M 0
+
+### define_proc_attributes	Num_calls 130	Total_time 00:00:00.006356	Total malloc-M 0
+
+### get_app_var	Num_calls 2	Total_time 00:00:00.000017	Total malloc-M 0
+
+### get_message_db_ptr	Num_calls 1	Total_time 00:00:00.000014	Total malloc-M 0
+
+### get_report_db_ptr	Num_calls 1	Total_time 00:00:00.000016	Total malloc-M 0
+
+### rename	Num_calls 2	Total_time 00:00:00.000140	Total malloc-M 0
+
+### restore_session	Num_calls 1	Total_time 00:00:00.000097	Total malloc-M 0
+
+### set_app_var	Num_calls 7	Total_time 00:00:00.001426	Total malloc-M 0
+1	Shell:	Time:00:00:00.001323	 Malloc-MB:0
+
+### source	Num_calls 45	Total_time 00:00:00.833796	Total malloc-M 4
+1	Shell:	Time:00:00:00.309002	 Malloc-MB:1
+2	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::28	Time:00:00:00.084346	 Malloc-MB:0
+3	Shell:	Time:00:00:00.060601	 Malloc-MB:1
+4	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::31	Time:00:00:00.030376	 Malloc-MB:0
+5	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::30	Time:00:00:00.029137	 Malloc-MB:0
+6	Shell:	Time:00:00:00.023217	 Malloc-MB:0
+7	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::10	Time:00:00:00.020386	 Malloc-MB:0
+8	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::29	Time:00:00:00.013697	 Malloc-MB:0
+9	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/fv.tcl::7	Time:00:00:00.013416	 Malloc-MB:0
+10	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/fv.tcl::6	Time:00:00:00.012888	 Malloc-MB:0
+11	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::20	Time:00:00:00.012475	 Malloc-MB:0
+12	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/fv.tcl::9	Time:00:00:00.012449	 Malloc-MB:0
+13	Shell:	Time:00:00:00.012144	 Malloc-MB:0
+14	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::11	Time:00:00:00.011520	 Malloc-MB:0
+15	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/cdc_scripts/cdc_default_settings.tcl::105	Time:00:00:00.010410	 Malloc-MB:0
+16	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::23	Time:00:00:00.010190	 Malloc-MB:0
+17	Shell:	Time:00:00:00.010186	 Malloc-MB:0
+18	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::24	Time:00:00:00.009940	 Malloc-MB:0
+19	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::14	Time:00:00:00.009710	 Malloc-MB:0
+20	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::16	Time:00:00:00.009436	 Malloc-MB:0
+21	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::13	Time:00:00:00.009134	 Malloc-MB:0
+22	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::12	Time:00:00:00.009030	 Malloc-MB:0
+23	Shell:	Time:00:00:00.008891	 Malloc-MB:0
+24	Shell:	Time:00:00:00.008866	 Malloc-MB:0
+25	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/fv.tcl::10	Time:00:00:00.008865	 Malloc-MB:0
+26	Shell:	Time:00:00:00.008691	 Malloc-MB:0
+27	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::9	Time:00:00:00.008626	 Malloc-MB:0
+28	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::18	Time:00:00:00.007885	 Malloc-MB:0
+29	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::21	Time:00:00:00.005608	 Malloc-MB:0
+30	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::15	Time:00:00:00.005412	 Malloc-MB:0
+31	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::22	Time:00:00:00.005196	 Malloc-MB:0
+32	Shell:	Time:00:00:00.004905	 Malloc-MB:0
+33	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/cdc_scripts/cdc_default_settings.tcl::104	Time:00:00:00.003909	 Malloc-MB:0
+34	Shell:	Time:00:00:00.003514	 Malloc-MB:0
+35	Shell:	Time:00:00:00.003454	 Malloc-MB:0
+36	Shell:	Time:00:00:00.003333	 Malloc-MB:0
+37	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::19	Time:00:00:00.003321	 Malloc-MB:0
+38	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/fv.tcl::8	Time:00:00:00.003317	 Malloc-MB:0
+39	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/fv.tcl::13	Time:00:00:00.002982	 Malloc-MB:0
+40	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::25	Time:00:00:00.002446	 Malloc-MB:0
+41	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/lowpower.tcl::17	Time:00:00:00.002416	 Malloc-MB:0
+42	Shell:	Time:00:00:00.002305	 Malloc-MB:0
+43	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/fv.tcl::11	Time:00:00:00.002217	 Malloc-MB:0
+44	File:/mnt/vol_NFS_rh003/synopsys_tools/synopsys/vc_static/R-2020.12-SP2-5/auxx/monet/tcl/fv.tcl::12	Time:00:00:00.002175	 Malloc-MB:0
+45	Shell:	Time:00:00:00.001772	 Malloc-MB:0
+
+ ****************************Shell commands Recording************************
+exit
